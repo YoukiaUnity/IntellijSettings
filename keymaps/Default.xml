@@ -1,7 +1,17 @@
 <keymap version="1" name="Default 复制" parent="$default">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
   <action id="BaseOnThisFunction" />
   <action id="ChangesView.Diff" />
   <action id="CheckinProject" />
+  <action id="CollapseAll" />
+  <action id="CollapseAllRegions" />
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+  </action>
+  <action id="CollapseRegion" />
+  <action id="CollapseTreeNode" />
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
     <keyboard-shortcut first-keystroke="shift ctrl divide" />
@@ -21,11 +31,13 @@
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="EditorDuplicate" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
   <action id="MethodHierarchy" />
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift ctrl insert" />
