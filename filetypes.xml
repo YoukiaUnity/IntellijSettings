@@ -6,8 +6,8 @@
       <mapping pattern="BattleList.lua" type="PLAIN_TEXT" />
       <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
       <mapping pattern="NetRecoveryConnect" type="lua" />
-      <mapping ext="txt" type="lua" />
-      <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="txt" approved="true" type="Txt" />
+      <removed_mapping ext="txt" approved="true" type="lua" />
     </extensionMap>
   </component>
 </application>

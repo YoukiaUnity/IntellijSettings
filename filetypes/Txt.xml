@@ -7,9 +7,12 @@
       <option name="HEX_PREFIX" value="" />
       <option name="NUM_POSTFIXES" value="" />
     </options>
-    <keywords keywords="txt" ignore_case="false" />
+    <keywords ignore_case="false" />
     <keywords2 />
     <keywords3 />
     <keywords4 />
   </highlighting>
+  <extensionMap>
+    <mapping ext="txt" />
+  </extensionMap>
 </filetype>
