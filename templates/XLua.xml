@@ -1,0 +1,14 @@
+<templateSet group="XLua">
+  <template name="newClass" value="---@class $VAR1$:$VAR2$&#10;local $VAR1$ = Class.CreateClass(&quot;$VAR1$&quot;, &quot;$VAR2$&quot;)&#10;&#10;function $VAR1$:New()&#10;    &#10;end&#10;&#10;function $VAR1$.GetType()&#10;    return '$VAR1$'&#10;end&#10;&#10;return $VAR1$" shortcut="SPACE" description="创建一个新lua类" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="notes" value="---@type &#10;---@param&#10;---@return" description="注释" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
