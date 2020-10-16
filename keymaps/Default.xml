@@ -30,10 +30,16 @@
   <action id="DatabaseView.CopyDdlAction" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="EditorDecreaseFontSize">
+    <mouse-shortcut keystroke="control button142" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="EditorDuplicate" />
+  <action id="EditorIncreaseFontSize">
+    <mouse-shortcut keystroke="control button143" />
+  </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
