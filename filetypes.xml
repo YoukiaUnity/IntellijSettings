@@ -4,9 +4,8 @@
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="BattleList.lua" type="PLAIN_TEXT" />
-      <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
       <mapping pattern="NetRecoveryConnect" type="lua" />
-      <removed_mapping ext="txt" approved="true" type="Native" />
+      <removed_mapping ext="txt" approved="true" type="text" />
     </extensionMap>
   </component>
 </application>
