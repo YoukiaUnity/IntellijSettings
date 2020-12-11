@@ -1,12 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
-    <ignoreFiles list="*.FBX;*.anim;*.asset;*.bytes;*.controller;*.hprof;*.mat;*.meta;*.png;*.prefab;*.pyc;*.pyo;*.rbc;*.tps;*.tpsheet;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
-      <mapping pattern="BattleList.lua" type="PLAIN_TEXT" />
-      <mapping ext="proto" type="PLAIN_TEXT" />
-      <mapping pattern="NetRecoveryConnect" type="lua" />
-      <removed_mapping ext="txt" approved="true" type="Native" />
     </extensionMap>
   </component>
 </application>
