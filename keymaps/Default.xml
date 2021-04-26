@@ -1,7 +1,4 @@
 <keymap version="1" name="Default 复制" parent="$default">
-  <action id="Back">
-    <keyboard-shortcut first-keystroke="ctrl minus" />
-  </action>
   <action id="BaseOnThisFunction" />
   <action id="ChangesView.Diff" />
   <action id="CheckinProject" />
@@ -30,25 +27,26 @@
   <action id="DatabaseView.CopyDdlAction" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="EditorDecreaseFontSize">
+    <mouse-shortcut keystroke="control button142" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="EditorDuplicate" />
+  <action id="EditorIncreaseFontSize">
+    <mouse-shortcut keystroke="control button143" />
+  </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
-  <action id="FixDocComment">
-    <keyboard-shortcut first-keystroke="shift ctrl s" />
-  </action>
-  <action id="Forward">
-    <keyboard-shortcut first-keystroke="shift ctrl minus" />
-  </action>
   <action id="MethodHierarchy" />
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift ctrl insert" />
   </action>
+  <action id="RecentFiles" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="shift ctrl d" />
@@ -65,6 +63,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
   <action id="RerunTests" />
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SendEOF" />
   <action id="ShowBookmarks">
@@ -80,5 +81,8 @@
   <action id="TypeHierarchy.BaseOnThisType" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="Uml.ShowDiff" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
   <action id="openAssertEqualsDiff" />
 </keymap>
